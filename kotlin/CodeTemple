@@ -1,0 +1,14 @@
+${question.content}
+package questions.leetcode.editor.cn
+
+fun main() {
+    val solution = $!velocityTool.camelCaseName(${question.titleSlug}) .Solution()
+    
+}
+
+class $!velocityTool.camelCaseName(${question.titleSlug}) {
+    
+    ${question.code}
+
+}
+
